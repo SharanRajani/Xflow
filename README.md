@@ -1,6 +1,10 @@
 # Xflow
 
 A Real-Time Tweet Streaming Pipeline with Deep Learning Sentiment Analysis Model for instant scoring.
+- The Real-Time Tweet Streaming Pipeline is built using Apache Flume, Apache Kafka & Spark-Streaming.
+- The LSTM based Sentiment Analysis Model is built using Keras with Tensorflow Backend.(Uses Word-Embeddings)
+- This Model is exposed as a RESTful Service which enables flexible usage.
+
 ## Usage
 Clone this repo on your system. Ensure maven is installed on your system for building it.
 Go to root directory of the project and run.
